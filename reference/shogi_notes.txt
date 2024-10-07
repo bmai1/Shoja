@@ -9,3 +9,5 @@ G 	gold 	金
 B 	bishop 	角
 R 	rook 	飛
 K 	king 	玉/王
+
+9x9 board

@@ -10,7 +10,7 @@ public class Lance extends Piece {
     }
 
     @Override
-    public void move() {
+    public void move(Position nextPosition) {
 
     }
 
