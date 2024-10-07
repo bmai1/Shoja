@@ -1,0 +1,11 @@
+Sente (Black) - Moves first up the board
+Gote (White)
+
+P 	pawn 	歩
+L 	lance 	香
+N 	knight 	桂
+S 	silver 	銀
+G 	gold 	金
+B 	bishop 	角
+R 	rook 	飛
+K 	king 	玉/王
