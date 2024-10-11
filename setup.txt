@@ -1,0 +1,21 @@
+Setup Maven, Spring boot
+
+unzip apache-maven-3.9.9-bin.zip
+echo 'export JAVA_HOME=$(/usr/libexec/java_home -v 19)' >> ~/.zshrc
+source ~/.zshrc
+echo $JAVA_HOME
+
+echo 'export PATH=$JAVA_HOME/bin:$PATH' >> ~/.zshrc
+echo 'export PATH=/Users/brianmai/Documents/apache-maven-3.9.9/bin:$PATH' >> ~/.zshrc
+source ~/.zshrc
+
+mvn --version
+
+mvn spring-boot:run (http://localhost:8080/)
+mvn dependency:tree
+
+dependency spring-boot-starter-web (has spring-boot-starter)
+
+@RestController: stereotype annotation
+@RequestMapping: routing info, http request with path
+@SpringBootApplication: meta-annotation 
