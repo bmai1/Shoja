@@ -22,7 +22,8 @@ public abstract class Piece {
     }
 
     public void promote() {
-        // if not bishop, rook, or king, promote into gold general upon moving past mid line
+        // if not bishop, rook, or king, prompt to promote into gold general upon moving past mid line
+        
     }
 
     public Position gePosition() {
